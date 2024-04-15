@@ -14,14 +14,14 @@ end
 % Read the input file
 rl = readlines(filename);
 if ismember(block, ["Input","All"])
-    svalBlock           = matlab.internal.extractBlockFunction(rl,"Input");
-    svalRepeatingBlock  = matlab.internal.extractBlockFunction(rl,"RepeatingInput");
+    svalBlock           = extractBlockFunction(rl,"Input");
+    svalRepeatingBlock  = extractBlockFunction(rl,"RepeatingInput");
     sval.Input          = svalBlock;
     sval.RepeatingInput = svalRepeatingBlock;
 end
 if ismember(block, ["Output","All"])
-    svalBlock            = matlab.internal.extractBlockFunction(rl,"Output");
-    svalRepeatingBlock   = matlab.internal.extractBlockFunction(rl,"RepeatingOutput");
+    svalBlock            = extractBlockFunction(rl,"Output");
+    svalRepeatingBlock   = extractBlockFunction(rl,"RepeatingOutput");
     sval.Output          = svalBlock;
     sval.RepeatingOutput = svalRepeatingBlock;
 end
