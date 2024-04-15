@@ -20,10 +20,10 @@ Open and run the ***run.mlx*** live script MATLAB file to see an example.
 
 ## Content
 
-- [Function]**extractFunctionArgumentValidation.m**: Main function used to call the *extractBlockFunction* function.
-- [Function] **extractBlockFunction.m**:             Function used by the *extractFunctionArgumentValidation* function to extract information from outside the targeted function.
-- [Folder] **plan folder**:                          Folder containing plan and tests.
-- [Folder] **content**:                              Folder containing the 2 functions used in the example.
+- [Function] **extractFunctionArgumentValidation.m**: Main function used to call the *extractBlockFunction* function.
+- [Function] **extractBlockFunction.m**:              Function used by the *extractFunctionArgumentValidation* function to extract information from outside the targeted function.
+- [Folder] **plan**:                                  Folder containing plan and tests.
+- [Folder] **content**:                               Folder containing the 2 functions used in the example.
 ## Roadmap
 - [ ] Test compatibility between I/O of 2 functions 
 
